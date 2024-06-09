@@ -29,3 +29,9 @@ function toggleUnderline() {
         editor.style.textDecoration = 'underline';
     }
 }
+
+// alingment function 
+function alignText(alignment) {
+    const editor = document.getElementById('editor');
+    editor.style.textAlign = alignment;
+}
