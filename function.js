@@ -42,3 +42,10 @@ function setFontSize() {
     const editor = document.getElementById('editor');
     editor.style.fontSize = fontSize;
 }
+
+//text colore function
+function setFontColor() {
+    const fontColor = document.getElementById('fontColor').value;
+    const editor = document.getElementById('editor');
+    editor.style.color = fontColor;
+}
