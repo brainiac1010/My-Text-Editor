@@ -35,3 +35,10 @@ function alignText(alignment) {
     const editor = document.getElementById('editor');
     editor.style.textAlign = alignment;
 }
+
+//font size function
+function setFontSize() {
+    const fontSize = document.getElementById('fontSize').value + 'px';
+    const editor = document.getElementById('editor');
+    editor.style.fontSize = fontSize;
+}
